@@ -1,5 +1,5 @@
 {
-  // Visit https://aka.ms/tsconfig to read more about this file
+  // TODO: extend a base config
   "compilerOptions": {
     // File Layout
     "rootDir": "./src",
@@ -7,7 +7,7 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "moduleResolution": "bundler",
     "target": "esnext",
     "types": [],
     // For nodejs:
