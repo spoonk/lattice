@@ -1,3 +1,6 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
 import { getArticleSummary } from "@lattice/wikipedia";
 
 export default async function ArticlePage({
@@ -10,6 +13,7 @@ export default async function ArticlePage({
 
   return (
     <div>
+      <Button>click me!</Button>
       <h1>{a}</h1>
     </div>
   );
