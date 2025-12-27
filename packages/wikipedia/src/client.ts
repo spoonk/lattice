@@ -1,4 +1,4 @@
-import axios, { AxiosError } from "axios";
+import axios from "axios";
 import type { WikipediaArticleSummary } from "./schema.js";
 
 export async function getArticleSummary(title: string) {
